@@ -199,8 +199,11 @@ body {
 
 .bande {
   width: auto;
-  height: 280px;
+  margin-top: 120px;
+  height: 82px;
   display: flex;
+  position: relative;
+  background-color: blue;
 }
 
 .blink {
@@ -240,7 +243,7 @@ body {
   font-family: "JetBrainsMono-Regular";
   color: blue;
   position: absolute;
-  top: 278%;
+  top: 268%;
   font-size: 90px;
 }
 
@@ -282,7 +285,69 @@ body {
 .fanzine {
   font-family: "JetBrainsMono-Regular";
   color: white;
-  position: flex;
-  top: 10%;
+  position: relative;
+  display: flex;
+  top: -90px;
   font-size: 70px;
+}
+
+.espace {
+  width: auto;
+  margin-top: 600px;
+  display: flex;
+  position: relative;
+}
+
+.articles {
+  position: absolute;
+  display: grid;
+  grid-template-areas: "myArea myArea myArea";
+  grid-gap: 210px;
+  margin: 350px;
+  color: white;
+  padding: 10px;
+}
+
+.articles > div {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.sous-articles {
+  position: absolute;
+  display: grid;
+  grid-template-areas: "myArea myArea myArea";
+  grid-gap: 205px;
+  margin: 350px;
+  color: white;
+  padding: 10px;
+}
+
+.sous-articles > div {
+  margin-top: 100px;
+  padding: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.img2 {
+  height: 1440px;
+  width: 1750px;
+  margin-top: 600px;
+  margin-bottom: 600px;
+  display: flex;
+}
+
+.archive {
+  font-size: 20px;
+  color: white;
+  text-align-last: justify;
+}
+
+.don {
+  text-align: right;
+  font-size: 20px;
+  color: white;
 }

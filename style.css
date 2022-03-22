@@ -302,8 +302,8 @@ body {
   position: absolute;
   display: grid;
   grid-template-areas: "myArea myArea myArea";
-  grid-gap: 210px;
-  margin: 350px;
+  grid-gap: 220px;
+  margin: 250px;
   color: white;
   padding: 10px;
 }
@@ -311,7 +311,7 @@ body {
 .articles > div {
   padding: 20px 0;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -319,8 +319,8 @@ body {
   position: absolute;
   display: grid;
   grid-template-areas: "myArea myArea myArea";
-  grid-gap: 205px;
-  margin: 350px;
+  grid-gap: 210px;
+  margin: 250px;
   color: white;
   padding: 10px;
 }
